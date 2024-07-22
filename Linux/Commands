@@ -1,0 +1,44 @@
+# Display and manage the top processes
+top
+
+# Display messages in kernel ring buffer
+dmesg
+
+# Display the user and group ids of your current user.
+id
+
+# List all files in a long listing (detailed) format
+ls -al
+
+# Display the present working directory
+pwd
+
+# Create a directory
+mkdir directory
+
+# Remove (delete) file
+rm file
+
+# Remove the directory and its contents recursively
+rm -r directory
+
+# Force removal of file without prompting for confirmation
+rm -f file
+
+# Forcefully remove directory recursively
+rm -rf directory
+
+# Copy file1 to file2
+cp file1 file2
+
+# View the contents of file
+cat file
+
+# Browse through a text file
+less file
+
+# Display the first 10 lines of file
+head file
+
+# Display the last 10 lines of file
+tail file

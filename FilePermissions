@@ -1,0 +1,38 @@
+###   chmod is a command in Unix-like operating systems used to change the file system modes or permissions of files and directories. 
+Understanding how to use chmod is crucial for managing file permissions and controlling access to files on your system.
+
+
+#   Owner (User who owns the file)
+Group (Users who are in the file's group)
+Others (Everyone else)
+
+permissions are represented by a three-digit number. Each digit is a sum of permissions:
+
+4 = read (r)
+2 = write (w)
+1 = execute (x)
+
+
+r       “read” the file’s contents. 
+w	    “write”, or modify, the file’s contents. 
+x    	“execute” the file. This permission is given only if the file is a program.
+
+
+7 = 4 + 2 + 1 = rwx
+6 = 4 + 2 = rw-
+5 = 4 + 1 = r-x
+4 = r--
+3 = 2 + 1 = wx-
+2 = w--
+1 = x--
+0 = ---
+
+
+
+example :
+
+chmod 755 file.txt
+
+rwxr-xr-x 
+owner has full access, group and others have read and execute access
+

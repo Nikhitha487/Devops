@@ -1,0 +1,35 @@
+
+Debian-based Systems ( Ubuntu, Linux Mint)
+
+APT (Advanced Package Tool)
+Update Package List:
+sudo apt update
+
+
+Install a Package:
+sudo apt install package-name
+
+
+Example (Installing unzip, jq, and wget):
+sudo apt update
+sudo apt install unzip jq wget
+
+
+Remove a Package:
+sudo apt remove package-name
+
+
+
+Red Hat-based Systems ( RHEL, CentOS, Fedora)
+
+
+
+YUM (Yellowdog Updater Modified) or DNF (Dandified YUM)
+Update Package List:
+
+For YUM:
+sudo yum check-update
+
+Example (Installing unzip, jq, and wget):
+
+sudo yum install unzip jq wget

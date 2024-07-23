@@ -1,0 +1,19 @@
+To connect to a machine using a public IP and a PEM file, you can create an SSH config file to simplify the process
+
+
+Locate ur pem file
+
+create an ssh file 
+
+vi ~/.ssh/config
+
+
+Add the configuration: Add the following configuration to the SSH config file:
+
+Host your_host_name
+    HostName your_public_ip
+    User your_username
+    IdentityFile /path/to/your.pem
+
+
+    

@@ -1,0 +1,10 @@
+wget https://dlcdn.apache.org/cassandra/3.0.30/apache-cassandra-3.0.30-bin.tar.gz
+
+
+
+du -sch filename / folder  (this gives uh size of the file)
+
+
+
+
+
